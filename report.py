@@ -43,7 +43,7 @@ def build_price_table(title, prices):
 
             rows += f"""
             <tr>
-                <td>{item['station']}</td>
+                <td>{item['depot']}</td>
                 <td>₦{item['price']:,.2f}</td>
             </tr>
             """

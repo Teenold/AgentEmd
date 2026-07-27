@@ -23,7 +23,7 @@ def get_prices(product: str, limit: int = 8):
 
         return [
             {
-                "station": item.get("depot_name", "Unknown"),
+                "depot": item.get("depot_name", "Unknown"),
                 "price": float(item.get("price", 0))
             }
             for item in data.get("prices", [])
