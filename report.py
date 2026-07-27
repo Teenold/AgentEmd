@@ -77,7 +77,7 @@ def build_price_table(title, prices):
         >
 
             <tr style="background:#d42e12;color:white;">
-                <th align="left">Station</th>
+                <th align="left">Depot</th>
                 <th align="left">Price</th>
             </tr>
 
