@@ -4,7 +4,7 @@ def get_report_period():
     
     current_hour = datetime.now().hour
     
-    if current_hour < 12:
+    if current_hour < 11:
         return "Morning"
         
     elif current_hour < 15:
@@ -18,7 +18,7 @@ def get_greeting():
     
     current_hour = datetime.now().hour
     
-    if current_hour < 12:
+    if current_hour < 11:
         return "Good morning Sir,"
         
     elif current_hour < 15:
